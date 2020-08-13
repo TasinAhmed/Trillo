@@ -167,3 +167,44 @@
   color: $color-grey-light-4;
   padding: 2.5rem;
 }
+
+.gallery {
+  display: flex;
+
+  &__item {
+    flex: 1;
+  }
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+.overview {
+  display: flex;
+  align-items: center;
+  &__heading {
+  }
+  &__stars {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: $color-primary;
+  }
+  &__location {
+    display: flex;
+    align-items: center;
+  }
+  &__rating {
+  }
+  &__rating-average {
+  }
+  &__rating-count {
+  }
+}
