@@ -186,6 +186,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   .description {
     margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
